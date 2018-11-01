@@ -1,0 +1,50 @@
+body, section.slide {
+  background-color: black;
+}
+section.slide {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.slide.bg-1 {
+  background-image: url(../../assets/img/xl/bg_1106.png);
+}
+.slide.bg-2 {
+  background-image: url(../../assets/img/xl/bg_e30a03.png);
+}
+.slide.bg-3 {
+  background-image: url(../../assets/img/xl/cn.png);
+}
+section.slide .jumbotron {
+  background: transparent;
+  color: white;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.jumbotron .h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  section.slide .jumbotron {
+    padding-top: 20vh;
+  }
+  .jumbotron .h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
